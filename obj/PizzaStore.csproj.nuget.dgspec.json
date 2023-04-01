@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MHICHO\\Desktop\\Muhammad\\PizzaStore\\PizzaStore.csproj": {}
+    "C:\\xampp\\htdocs\\Muhammad\\Xtras\\PizzaStore-Api\\PizzaStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MHICHO\\Desktop\\Muhammad\\PizzaStore\\PizzaStore.csproj": {
+    "C:\\xampp\\htdocs\\Muhammad\\Xtras\\PizzaStore-Api\\PizzaStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MHICHO\\Desktop\\Muhammad\\PizzaStore\\PizzaStore.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\Muhammad\\Xtras\\PizzaStore-Api\\PizzaStore.csproj",
         "projectName": "PizzaStore",
-        "projectPath": "C:\\Users\\MHICHO\\Desktop\\Muhammad\\PizzaStore\\PizzaStore.csproj",
-        "packagesPath": "C:\\Users\\MHICHO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MHICHO\\Desktop\\Muhammad\\PizzaStore\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\Muhammad\\Xtras\\PizzaStore-Api\\PizzaStore.csproj",
+        "packagesPath": "C:\\Users\\mhabn\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\Muhammad\\Xtras\\PizzaStore-Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MHICHO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mhabn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +40,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
@@ -66,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
